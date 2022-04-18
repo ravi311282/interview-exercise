@@ -55,7 +55,7 @@ a specified price (e.g. 55.0). Don’t worry what units that is in.
 
 ### Interview Excercise Solution - Readme
 
-The Listener monitors a firehose of events from the Price Source. The Price Source is an async process and it required some additional state. Hence, the SourceImpl has some state variables.
+The Listener monitors a fire of events from the Price Source. The Price Source is an async process and it required some additional state. Hence, the SourceImpl has some state variables.
 
 The Trading Strategy is the main program.
 
@@ -67,6 +67,3 @@ The TradeExceutionService prints the trade that is successful.
 
 The objective of the candidate is to keep the implementation very simple and easy to read. So, the functionalities are minimal.
 
-The rest of the program is self-explanatory.
-
-Note: Lombok, an annotation processor is added for brevity. In Intellij, please enable Annotation processing at Preferences->Build,Execution, Deployment-> Compiler-> Annotation processors -> Enable
